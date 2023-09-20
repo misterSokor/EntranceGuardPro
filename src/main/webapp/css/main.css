@@ -1,0 +1,38 @@
+
+body {
+    background-color: #00172a;
+    color: linen;
+    font-family: Arial, sans-serif;
+    margin: 200px;
+
+    display: flex;
+    height: 70vh; /* hall height for display */
+}
+
+.left, .right {
+    flex: 1; /* display is divided on two equal part */
+    padding: 20px;
+    box-sizing: border-box; /* padding inside of block */
+}
+
+.left {
+    background-color: #00172a;
+}
+
+.right {
+    background-color: #888888;
+    padding: 40px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-size: 60px;
+}
+
+img  {
+    width: 90%;
+}
+
+

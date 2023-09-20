@@ -4,6 +4,10 @@
   <groupId>org.example</groupId>
   <artifactId>EntranceGuardPro</artifactId>
   <packaging>war</packaging>
+  <properties>
+    <maven.compiler.source>19</maven.compiler.source>
+    <maven.compiler.target>19</maven.compiler.target>
+  </properties>
   <version>1.0-SNAPSHOT</version>
   <name>EntranceGuardPro Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -109,14 +113,6 @@
     <finalName>EntranceGuardPro</finalName>
 
     <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-compiler-plugin</artifactId>
-        <configuration>
-          <source>11</source>
-          <target>11</target>
-        </configuration>
-      </plugin>
       <!-- plugin to allow resource filtering-->
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
